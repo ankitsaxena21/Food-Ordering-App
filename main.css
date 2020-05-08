@@ -205,6 +205,11 @@ body {
     height: 45px;
   
   }
+  .autocomplete {
+    width: 75vw;
+    margin-left: 10vw;
+    height: 45px;
+}
 }
 @media screen and (min-width: 880px) {
   .restaurants-center {
