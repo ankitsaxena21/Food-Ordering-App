@@ -222,11 +222,11 @@ body {
     margin-left: 10vw;
   }
   .favourites {
-    float: top;
-    font-size: 1rem;
-    margin-top: 1em;
-    border: 1px solid white;
-    background-color: rgb(24, 18, 24);
+    font-size: 1.5rem;
+  }
+  .section-title h2 {
+    text-align: center;
+    height: 3.5em;
   }
 
 }
