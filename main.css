@@ -207,9 +207,8 @@ body {
   }
   .autocomplete {
     width: 75vw;
-    magin-left: 30vw;
-    height: 45px;
-}
+    margin-left: 10vw;
+  }
 }
 @media screen and (min-width: 880px) {
   .restaurants-center {
