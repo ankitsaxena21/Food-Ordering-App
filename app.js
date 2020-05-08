@@ -34,6 +34,7 @@ class UI {
                 </button>
             </div>
             <h3>${restaurant.name}</h3>
+            <h4>Location - ${restaurant.location}</h4>
             <h4>Ratings - ${restaurant.rating}</h4>
             <h4>ETA - ${restaurant.ETA}</h4>
             </div>
