@@ -221,6 +221,13 @@ body {
     width: 75vw;
     margin-left: 10vw;
   }
+  .favourites {
+    float: top;
+    font-size: 1rem;
+    margin-top: 1em;
+    border: 1px solid white;
+    background-color: rgb(24, 18, 24);
+  }
 
 }
 @media screen and (min-width: 880px) {
