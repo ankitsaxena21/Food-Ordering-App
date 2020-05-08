@@ -191,7 +191,7 @@ document.getElementById("filter").addEventListener("change", (e) => {
 })
 
 document.querySelector("#pagination").addEventListener("click", (e) => {
-    if (e.target.textContent == "next" && next < total) {
+    if (e.target.textContent.includes("next") && next < total) {
         prev = prev + 6;
         next = next + 6;
         restaurants.getData().then(restaurants => {
@@ -199,7 +199,7 @@ document.querySelector("#pagination").addEventListener("click", (e) => {
             ui.getfavouriteButtons();
         })
     }
-    else if (e.target.textContent == "previous" && prev >= 0) {
+    else if (e.target.textContent.includes("previous") && prev >= 0) {
         prev = prev - 6;
         next = next - 6;
         restaurants.getData().then(restaurants => {
