@@ -143,7 +143,9 @@ document.addEventListener("DOMContentLoaded", () => {
     search.value ='';
     restaurants.getData().then(restaurants => {
         ui.displayItems(restaurants);
-        if (localStorage.getItem("restaurants") === null) {
+        let items = localStorage.getItem("favourite");
+        items = JSON.parse(items);
+        if (items == null) {
             Storage.saveData(restaurants);
         }
         ui.getfavouriteButtons();
