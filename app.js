@@ -177,6 +177,7 @@ document.getElementById("sort").addEventListener("change", (e) => {
             items = items.reverse();
         }
         ui.displayItems(items);
+        ui.getfavouriteButtons();
     })
 })
 
