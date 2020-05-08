@@ -1,6 +1,6 @@
 # Food Ordering App
 
-Live app - [Food ordering app](https://ankitsaxena21.github.io/Food-Ordering-App/))
+Live app - [Food ordering app](https://ankitsaxena21.github.io/Food-Ordering-App/)
 
 A food ordering app built in vanilla javascript. It includes features like searching, filtering, pagination, tagging, typeahead and local storage.
 
