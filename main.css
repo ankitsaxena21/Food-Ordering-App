@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --primaryColor: #0b57fc;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to right, rgb(252, 251, 249), rgb(196, 194, 190));
+}
+
+.filter-container {
+	display: flex;
+	width: auto;
+  flex-direction: column;
+  align-items: center;
+	justify-content: center;
+  margin-bottom: 10vh;
+  }
+.header {
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 5vh;
+}
+.sub-header {
+  text-align: center;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#filter, #sort {
+  background: linear-gradient(to right, rgb(148, 143, 143), rgb(241, 233, 233));
+  color: rgb(17, 17, 17);
+  width: 12vw;
+  height: 5vh;
+  margin-top: 4vh;
+  margin-left: 5vw;
+  border: 1px solid rgb(5, 4, 4);
+}
+.typeahead {
+	width: 52vw;
+	height: 45px;
+  margin-right: 20px;
+  box-shadow: 0px 1px 5px 1px rgb(10, 10, 10);
+
+}
+
+.autocomplete {
+  width: 52vw;
+  top : -10rem;
+  text-align: center;
+  background: white;
+  box-shadow: 0px 1px 5px 1px #000;
+  padding: 0.6rem;
+}
+
+.autocomplete:hover {
+  background: rgb(183, 187, 187);
+  padding: 0.6rem;
+}
+
+.search {
+	width: 80px;
+	height: 45px;
+	background: linear-gradient(to right, rgb(241, 234, 234), rgb(37, 36, 36));
+	color: white;
+}
+
+.products {
+  padding: 4rem 0;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+
+.restaurants-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 3.5rem;
+  grid-row-gap: 4.5rem;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.bag-btn {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  background: var(--primaryColor);
+  color: rgb(20, 20, 20);
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: var(--mainSpacing);
+  font-weight: bold;
+  transition: var(--mainTransition);
+  transform: translateX(101%);
+  cursor: pointer;
+}
+.bag-btn:hover {
+  color: var(--mainWhite);
+}
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+.img-container:hover .bag-btn {
+  transform: translateX(0);
+}
+
+.restaurant {
+  box-shadow: 0px 1px 10px 1px #000;
+}
+
+.restaurant-img {
+  display: block;
+  width: 100%;
+  max-height: 12rem;
+  transition: var(--mainTransition);
+}
+.img-container:hover .restaurant-img {
+  opacity: 0.5;
+}
+
+.restaurant h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+}
+
+.restaurant h4 {
+  margin-top: 0.7rem;
+  letter-spacing: var(--mainSpacing);
+  color: var(--primaryColor);
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+#paginantion {
+  align-items: center;
+  justify-content: center;
+  margin-left: 20vw;
+}
+
+.prev{
+  background: linear-gradient(to right, rgb(3, 3, 94), rgb(16, 191, 235));
+  color: azure;
+  width: 95px;
+  height: 8vh;
+  margin-top: 1.5vh;
+  margin-left: 42%;
+} 
+.next{
+  background: linear-gradient(to right, rgb(3, 3, 94), rgb(9, 121, 226));
+  color: azure;
+  width: 90px;
+  height: 8vh;
+  margin-top: 1.5vh;
+  margin-left: 1%;
+} 
+
+@media screen and (max-width: 568px) {
+  .next {
+    width: 100px;
+  }
+  .prev {
+    width: 100px;
+    margin-left: 18%;
+  }
+  #filter, #sort {
+    width: 32vw;
+    height: 7vh;
+  }
+  .typeahead {
+    width: 75vw;
+    margin-left: 10vw;
+    height: 45px;
+  
+  }
+}
+@media screen and (min-width: 880px) {
+  .restaurants-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    grid-column-gap: 3.5rem;
+    grid-row-gap: 4.5rem;
+  }
+}

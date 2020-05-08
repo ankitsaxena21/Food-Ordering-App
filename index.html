@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Odering App</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="section-title">
+            <h2 class="header">Food Odering App
+            </h2>
+
+            <div class="filter-container">
+                <form class="myform">
+                    <input type="text" class="typeahead" placeholder="Search restaurants..." />
+                    <div id="target"></div>
+                </form>
+                <div class="filters">
+                    <select id="sort">
+                        <option value="name">Name</option>
+                        <option value="ETA">ETA</option>
+                        <option value="rating">Rating</option>
+                    </select>
+                    <select id="filter">
+                        <option value="Indian">Indian</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Mexican">Mexican</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="French">French</option>
+                        <option value="American">American</option>
+                        <option value="Sea Food">Sea Food</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <div class="restaurants-center">
+
+        </div>
+    </section>
+    <div id="pagination">
+        <button class="prev">&lt;&lt; previous</button>
+        <button class="next">next &gt;&gt;</button>
+    </div>
+</body>
+
+</html>
