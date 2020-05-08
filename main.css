@@ -60,7 +60,7 @@ body {
 .autocomplete {
   width: 52vw;
   top : -10rem;
-  text-align: center;
+  text-align: left;
   background: white;
   box-shadow: 0px 1px 5px 1px #000;
   padding: 0.6rem;
