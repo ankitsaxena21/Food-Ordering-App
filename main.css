@@ -208,6 +208,7 @@ body {
   .autocomplete {
     width: 75vw;
     text-align : center;
+    magin-left: 10vw;
     height: 45px;
 }
 }
