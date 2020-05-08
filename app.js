@@ -187,6 +187,7 @@ document.getElementById("filter").addEventListener("change", (e) => {
             return tags.includes(e.target.value);
         });
         ui.displayItems(items);
+        ui.getfavouriteButtons();
     })
 })
 
