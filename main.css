@@ -31,7 +31,6 @@ body {
 .header {
   text-align: left;
   margin-bottom: 0;
-  margin-top: 5vh;
 }
 .sub-header {
   text-align: center;
@@ -52,8 +51,8 @@ body {
   border: 1px solid rgb(5, 4, 4);
 }
 .typeahead {
-	width: 52vw;
-	height: 45px;
+  width: 52vw;
+  height: 45px;
   margin-right: 20px;
   box-shadow: 0px 1px 5px 1px rgb(10, 10, 10);
 
