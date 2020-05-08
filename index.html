@@ -14,9 +14,8 @@
 <body>
     <section>
         <div class="section-title">
-            <h2 class="header">Food Odering App
-            </h2>
-
+            <h2 class="header">Food Odering App<button class="favourites"><i class='fa fa-heart fa-lg'></i></button></h2>
+        </div>
             <div class="filter-container">
                 <form class="myform">
                     <input type="text" class="typeahead" placeholder="Search restaurants..." />
@@ -24,12 +23,13 @@
                 </form>
                 <div class="filters">
                     <select id="sort">
+                        <option value="" disabled selected hidden>Sort By :-</option>
                         <option value="name">Name</option>
                         <option value="ETA">ETA</option>
                         <option value="rating">Rating</option>
                     </select>
                     <select id="filter">
-                        <option value="Indian">Indian</option>
+                        <option value="" disabled selected hidden>Filter By :-</option>                        <option value="Indian">Indian</option>
                         <option value="Italian">Italian</option>
                         <option value="Mexican">Mexican</option>
                         <option value="Chinese">Chinese</option>
@@ -39,9 +39,6 @@
                     </select>
                 </div>
             </div>
-
-        </div>
-        </div>
         <div class="restaurants-center">
 
         </div>

@@ -149,13 +149,13 @@ document.addEventListener("DOMContentLoaded", () => {
             Storage.saveData(restaurants);
         }
         ui.getfavouriteButtons();
-    })
+    });
 });
 
 search.addEventListener("input", () => {
     if (search.value != '')
         restaurants.getData().then(restaurants => ui.searchText(search.value, restaurants));
-})
+});
 
 document.querySelector(".myform").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -167,8 +167,8 @@ document.querySelector(".myform").addEventListener("submit", (e) => {
         });
         ui.displayItems(items);
         ui.getfavouriteButtons();
-    })
-})
+    });
+});
 
 document.getElementById("sort").addEventListener("change", (e) => {
     restaurants.getData().then(restaurants => {
@@ -177,9 +177,8 @@ document.getElementById("sort").addEventListener("change", (e) => {
             items = items.reverse();
         }
         ui.displayItems(items);
-        ui.getfavouriteButtons();
-    })
-})
+    });
+});
 
 document.getElementById("filter").addEventListener("change", (e) => {
     restaurants.getData().then(restaurants => {
@@ -188,9 +187,8 @@ document.getElementById("filter").addEventListener("change", (e) => {
             return tags.includes(e.target.value);
         });
         ui.displayItems(items);
-        ui.getfavouriteButtons();
-    })
-})
+    });
+});
 
 document.querySelector("#pagination").addEventListener("click", (e) => {
     if (e.target.textContent.includes("next") && next < total) {
@@ -207,6 +205,22 @@ document.querySelector("#pagination").addEventListener("click", (e) => {
         restaurants.getData().then(restaurants => {
             ui.displayItems(restaurants, prev, next);
             ui.getfavouriteButtons();
-        })
+        });
     }
-})
+});
+
+document.querySelector(".favourites").addEventListener("click", (e) => {
+    let items = localStorage.getItem("favourite");
+    items = JSON.parse(items);
+    restaurants.getData().then(restaurants => {
+        let fav = [];
+        restaurants.forEach((restaurant, index) => {
+            if(items[index] == "true"){
+                fav.push(restaurant);
+            }
+        });
+        ui.displayItems(fav);
+        ui.getfavouriteButtons();
+    });
+    
+});

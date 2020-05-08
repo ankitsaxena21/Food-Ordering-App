@@ -21,11 +21,11 @@ body {
 }
 
 .filter-container {
-  display: flex;
-  width: auto;
+	display: flex;
+	width: auto;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+	justify-content: center;
   margin-bottom: 10vh;
   }
 
@@ -50,8 +50,8 @@ body {
   border: 1px solid rgb(5, 4, 4);
 }
 .typeahead {
-  width: 52vw;
-  height: 45px;
+	width: 52vw;
+	height: 45px;
   margin-right: 20px;
   box-shadow: 0px 1px 5px 1px rgb(10, 10, 10);
 
@@ -72,10 +72,10 @@ body {
 }
 
 .search {
- width: 80px;
- height: 45px;
- background: linear-gradient(to right, rgb(241, 234, 234), rgb(37, 36, 36));
- color: white;
+	width: 80px;
+	height: 45px;
+	background: linear-gradient(to right, rgb(241, 234, 234), rgb(37, 36, 36));
+	color: white;
 }
 
 .products {
@@ -169,7 +169,20 @@ body {
   justify-content: center;
   margin-left: 20vw;
 }
-
+.favourites {
+  background-color: rgb(24, 21, 21);
+  color: rgb(247, 171, 8);
+  border: #000;
+  float: right;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 32px ;
+  margin-top: 2vh;
+}
+.favourites:hover {
+  background-color: white;
+  color: red;
+}
 .prev{
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(16, 191, 235));
   color: azure;
@@ -203,12 +216,12 @@ body {
     width: 75vw;
     margin-left: 10vw;
     height: 45px;
-  
   }
   .autocomplete {
     width: 75vw;
     margin-left: 10vw;
   }
+
 }
 @media screen and (min-width: 880px) {
   .restaurants-center {
