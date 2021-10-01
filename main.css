@@ -191,6 +191,9 @@ body {
   margin-top: 1.5vh;
   margin-left: 42%;
 } 
+.prev:hover{
+  color: rgb(151, 151, 151);
+}
 .next{
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(9, 121, 226));
   color: azure;
@@ -198,7 +201,10 @@ body {
   height: 8vh;
   margin-top: 1.5vh;
   margin-left: 1%;
-} 
+}
+.next:hover {
+  color: rgb(151, 151, 151);
+}
 
 @media screen and (max-width: 568px) {
   .next {
