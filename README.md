@@ -7,4 +7,4 @@ A food ordering app built using vanilla javascript. It includes features like se
 
 ![screenshot](https://github.com/ankitsaxena21/Food-Ordering-App/blob/master/Screenshot_2020-05-08%20Food%20Odering%20App.png)
 
-To run in on your local clone the repository and run in browser using live server.
+To run in on your localhost clone the repository and run in browser using live server.
