@@ -17,7 +17,23 @@ body {
   color: var(--mainBlack);
   background: var(--mainWhite);
   font-family: "Lato", sans-serif;
-  background: linear-gradient(to right, rgb(252, 251, 249), rgb(196, 194, 190));
+  background: linear-gradient(to right, rgb(250, 229, 186), rgb(248, 213, 142));
+}
+footer{
+  text-align: left;
+  height:8vw;
+  margin-bottom: 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-transform: capitalize;
+  background-color: black;
+  color: rgb(235, 227, 227);
+  position: sticky;
+  letter-spacing: var(--mainSpacing);
+
 }
 
 .filter-container {
@@ -27,11 +43,13 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 10vh;
+  cursor: pointer;
   }
 
 .header {
   text-align: left;
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 .filters {
@@ -40,17 +58,32 @@ body {
   align-items: center;
 }
 
-#filter, #sort {
+#filter{
+  background: linear-gradient(to right, rgb(148, 143, 143), rgb(241, 233, 233));
+  color: rgb(17, 17, 17);
+  width: 12vw;
+  height: 5vh;
+  margin-top: 4vh;
+  margin-left: 1vw;
+  margin-right: 5vw;
+  border: 1px solid rgb(5, 4, 4);
+  cursor: pointer;
+
+}
+#sort {
   background: linear-gradient(to right, rgb(148, 143, 143), rgb(241, 233, 233));
   color: rgb(17, 17, 17);
   width: 12vw;
   height: 5vh;
   margin-top: 4vh;
   margin-left: 5vw;
+  margin-right: 1vw;
   border: 1px solid rgb(5, 4, 4);
+  cursor: pointer;
+
 }
 .typeahead {
-  width: 52vw;
+  width: 40vw;
   height: 45px;
   margin-right: 20px;
   box-shadow: 0px 1px 5px 1px rgb(10, 10, 10);
@@ -136,6 +169,7 @@ body {
 
 .restaurant {
   box-shadow: 0px 1px 10px 1px #000;
+  background-color: #ececec;
 }
 
 .restaurant-img {
@@ -180,17 +214,19 @@ body {
   margin-top: 2vh;
 }
 .favourites:hover {
-  background-color: white;
   color: red;
 }
 .prev{
   cursor: pointer;
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(16, 191, 235));
-  color: azure;
-  width: 95px;
+  width: 12vw;
   height: 8vh;
-  margin-top: 1.5vh;
-  margin-left: 42%;
+  margin-left: 5vw;
+  margin-right: 10vw;
+  color: azure;
+ 
+  align-items: center;
+ 
 } 
 .prev:hover{
   color: rgb(151, 151, 151);
@@ -198,11 +234,15 @@ body {
 .next{
   cursor: pointer;
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(9, 121, 226));
-  color: azure;
-  width: 90px;
+  width: 12vw;
   height: 8vh;
-  margin-top: 1.5vh;
-  margin-left: 1%;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  color: azure;
+  
+  align-items: center;
+  
+  
 }
 .next:hover {
   color: rgb(151, 151, 151);
@@ -210,20 +250,22 @@ body {
 
 @media screen and (max-width: 568px) {
   .next {
-    width: 100px;
+    width: 32vw;
+    height: 7vh;
   }
   .prev {
-    width: 100px;
-    margin-left: 18%;
+    width: 32vw;
+    height: 7vh;
   }
-  #filter, #sort {
+  #filter, #sort  {
     width: 32vw;
     height: 7vh;
   }
   .typeahead {
     width: 75vw;
-    margin-left: 10vw;
-    height: 45px;
+    margin: 10vw;
+    padding: 10vw;
+    height: 3vw;
   }
   .autocomplete {
     width: 75vw;
