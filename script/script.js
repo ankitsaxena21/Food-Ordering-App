@@ -9,8 +9,9 @@ const total = 15;
 class Restaurants {
     async getData() {
         try {
-            let response = await fetch('../assets/media/data/restaurants.json');
+            let response = await fetch('https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/data/restaurants.json');
             let data = await response.json();
+            console.log(data);
             return data.items;
         }
         catch (err) {
