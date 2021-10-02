@@ -184,6 +184,7 @@ body {
   color: red;
 }
 .prev{
+  cursor: pointer;
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(16, 191, 235));
   color: azure;
   width: 95px;
@@ -192,6 +193,7 @@ body {
   margin-left: 42%;
 } 
 .next{
+  cursor: pointer;
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(9, 121, 226));
   color: azure;
   width: 90px;
