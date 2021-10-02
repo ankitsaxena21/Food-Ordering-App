@@ -9,7 +9,7 @@ const total = 15;
 class Restaurants {
     async getData() {
         try {
-            let response = await fetch('./../assets/media/data/restaurants.json');
+            let response = await fetch('../assets/media/data/restaurants.json');
             let data = await response.json();
             return data.items;
         }
