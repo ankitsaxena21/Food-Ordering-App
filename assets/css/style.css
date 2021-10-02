@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@font-face {
+  font-family: MainFont;
+  src: url(font.ttf);
+}
 :root {
   --primaryColor: #0b57fc;
   --mainWhite: #fff;
@@ -12,29 +15,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none;
 }
-
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
   font-family: "Lato", sans-serif;
-  background: linear-gradient(to right, rgb(250, 229, 186), rgb(248, 213, 142));
-}
-footer{
-  text-align: left;
-  height:4vw;
-  margin-bottom: 0;
-  cursor: pointer;
-  text-align: center;
-  font-size: 1rem;
-  margin-bottom: 0rem;
-  padding: 1rem;
-  text-transform: capitalize;
-  background-color: black;
-  color: rgb(235, 227, 227);
-  position: sticky;
-  letter-spacing: var(--mainSpacing);
+  background: linear-gradient(to right, rgb(252, 251, 249), rgb(196, 194, 190));
 }
 
 .filter-container {
@@ -44,13 +30,13 @@ footer{
   align-items: center;
   justify-content: center;
   margin-bottom: 10vh;
-  cursor: pointer;
   }
 
 .header {
   text-align: left;
+  font-family: Azonix;
+  font-weight: lighter;
   margin-bottom: 0;
-  cursor: pointer;
 }
 
 .filters {
@@ -59,44 +45,52 @@ footer{
   align-items: center;
 }
 
-#filter{
-  background: linear-gradient(to right, rgb(148, 143, 143), rgb(241, 233, 233));
-  color: rgb(17, 17, 17);
-  width: 12vw;
-  height: 5vh;
+#filter, #sort {
+border-radius: 49px;
+background: linear-gradient(145deg, #6268ff, #5357e6);
+box-shadow:  5px 5px 10px #2e3180,
+             -5px -5px 10px #8a92ff;
+padding: 10px;
+  color: #fff;
+  border: none;
+  width: auto;
+  height: auto;
   margin-top: 4vh;
-  margin-left: 1vw;
-  margin-right: 5vw;
-  border: 1px solid rgb(5, 4, 4);
-  cursor: pointer;
-
-}
-
-#sort {
-  background: linear-gradient(to right, rgb(148, 143, 143), rgb(241, 233, 233));
-  color: rgb(17, 17, 17);
-  width: 12vw;
-  height: 5vh;
-  margin-top: 4vh;
-  margin-left: 5vw;
-  margin-right: 1vw;
-  border: 1px solid rgb(5, 4, 4);
-  cursor: pointer;
-
+  margin-left: 2vw;
 }
 .typeahead {
-  width: 40vw;
+  width: 52vw;
   height: 45px;
   margin-right: 20px;
-  box-shadow: 0px 1px 5px 1px rgb(10, 10, 10);
-  padding: 8px;
-  border-radius: 25px;
-  border: 2px solid rgb(148, 143, 143);
-}
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+border-radius: 59px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  21px 21px 41px #9f9f9f,
+             -21px -21px 41px #ffffff;
 
+}
+footer{
+  text-align: left;
+  height:8vw;
+  height:4vw;
+  margin-bottom: 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  padding: 1rem;
+  color: white;
+  text-transform: capitalize;
+  background-color: black;
+}
 .autocomplete {
   width: 52vw;
-  top: -10rem;
+  top : -10rem;
   text-align: left;
   background: white;
   box-shadow: 0px 1px 5px 1px #000;
@@ -113,6 +107,7 @@ footer{
   height: 45px;
   background: linear-gradient(to right, rgb(241, 234, 234), rgb(37, 36, 36));
   color: white;
+
 }
 
 .products {
@@ -173,7 +168,6 @@ footer{
 
 .restaurant {
   box-shadow: 0px 1px 10px 1px #000;
-  background-color: #ececec;
 }
 
 .restaurant-img {
@@ -203,68 +197,72 @@ footer{
 }
 
 #paginantion {
-  display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 .favourites {
-  background-color: rgb(24, 21, 21);
-  color: rgb(247, 171, 8);
+  background: #000;
+  color: rgb(255, 216, 20);
   border: #000;
   float: right;
   font-size: 1.5rem;
   width: 50px;
-  height: 32px;
+  height: 32px ;
   margin-top: 2vh;
 }
-.favourites:hover {
-  color: red;
+.glow-button:hover {
+  color: rgba(255, 228, 92, 1);
+  box-shadow: 0 20px 45px rgba(255, 216, 20, .4);
+  background: transparent;
 }
-.prev {
+.prev{
   cursor: pointer;
-  background: linear-gradient(to right, rgb(3, 3, 94), rgb(16, 191, 235));
-  width: 12vw;
-  height: 8vh;
-  margin: 3rem;
+border: none;
+border-radius: 64px;
+background: linear-gradient(145deg, #6d9eff, #5c85e6);
+box-shadow:  9px 9px 18px #4e70c2,
+             -9px -9px 18px #7eb8ff;
   color: azure;
-  text-transform: capitalize;
-  align-items: center;
-}
-.prev:hover {
-   color: rgb(151, 151, 151); 
+  width: 95px;
+  height: 8vh;
+  margin-top: 40px;
 } 
-.next {
+.prev:hover{
+  color: #f5ff66;
+}
+.next{
   cursor: pointer;
-  background: linear-gradient(to right, rgb(3, 3, 94), rgb(9, 121, 226));
-  width: 12vw;
-  height: 8vh;
-  margin: 3rem;
+border: none;
+border-radius: 64px;
+background: linear-gradient(145deg, #6d9eff, #5c85e6);
+box-shadow:  9px 9px 18px #4e70c2,
+             -9px -9px 18px #7eb8ff;
   color: azure;
-  text-transform: capitalize;
-  align-items: center;
+  width: 90px;
+  height: 8vh;
+  margin-top: 40px;
+  margin-left: 30px;
 }
 .next:hover {
-  color: rgb(151, 151, 151);
+  color: #f5ff66;
 }
 
 @media screen and (max-width: 568px) {
   .next {
-    width: 32vw;
-    height: 7vh;
+    width: 100px;
   }
   .prev {
-    width: 32vw;
-    height: 7vh;
+    width: 100px;
+    margin-left: 18%;
   }
-  #filter, #sort  {
+  #filter, #sort {
     width: 32vw;
     height: 7vh;
   }
   .typeahead {
     width: 75vw;
-    margin: 10vw;
-    padding: 10vw;
-    height: 3vw;
+    margin-left: 10vw;
+    height: 45px;
   }
   .autocomplete {
     width: 75vw;
@@ -277,6 +275,7 @@ footer{
     text-align: center;
     height: 3.5em;
   }
+
 }
 @media screen and (min-width: 880px) {
   .restaurants-center {
