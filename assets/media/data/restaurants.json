@@ -11,7 +11,7 @@
         "Mexican",
         "French"
       ],
-      "image": "./images/restaurant-1.jpg",
+      "image": "/images/restaurant-1.jpg",
       "favourite": "false"
     },
     {
@@ -25,7 +25,7 @@
         "Indian",
         "French"
       ],
-      "image": "./images/restaurant-2.jpg",
+      "image": "/images/restaurant-2.jpg",
       "favourite": "false"
     },
     {
@@ -39,7 +39,7 @@
         "Italian",
         "French"
       ],
-      "image": "./images/restaurant-3.jpg",
+      "image": "/images/restaurant-3.jpg",
       "favourite": "false"
     },
     {
@@ -52,7 +52,7 @@
         "American",
         "French"
       ],
-      "image": "./images/restaurant-4.jpg",
+      "image": "/images/restaurant-4.jpg",
       "favourite": "false"
     },
     {
@@ -65,7 +65,7 @@
         "American",
         "Indian"
       ],
-      "image": "./images/restaurant-5.jpg",
+      "image": "/images/restaurant-5.jpg",
       "favourite": "false"
     },
     {
@@ -78,7 +78,7 @@
         "Indian",
         "French"
       ],
-      "image": "./images/restaurant-6.jpg",
+      "image": "/images/restaurant-6.jpg",
       "favourite": "false"
     },
     {
@@ -90,7 +90,7 @@
       "tags": [
         "Indian"
       ],
-      "image": "./images/restaurant-7.jpg",
+      "image": "/images/restaurant-7.jpg",
       "favourite": "false"
     },
     {
@@ -104,7 +104,7 @@
         "Indian",
         "French"
       ],
-      "image": "./images/restaurant-8.jpg",
+      "image": "/images/restaurant-8.jpg",
       "favourite": "false"
     },
     {
@@ -118,7 +118,7 @@
         "Chinese",
         "French"
       ],
-      "image": "./images/restaurant-9.jpg",
+      "image": "/images/restaurant-9.jpg",
       "favourite": "false"
     },
     {
@@ -132,7 +132,7 @@
         "Chinese",
         "French"
       ],
-      "image": "./images/restaurant-10.jpg",
+      "image": "/images/restaurant-10.jpg",
       "favourite": "false"
     },
     {
@@ -146,7 +146,7 @@
         "Chinese",
         "French"
       ],
-      "image": "./images/restaurant-11.jpg",
+      "image": "/images/restaurant-11.jpg",
       "favourite": "false"
     },
     {
@@ -160,7 +160,7 @@
         "Mexican",
         "French"
       ],
-      "image": "./images/restaurant-12.jpg",
+      "image": "/images/restaurant-12.jpg",
       "favourite": "false"
     },
     {
@@ -174,7 +174,7 @@
         "Indian",
         "French"
       ],
-      "image": "./images/restaurant-3.jpg",
+      "image": "/images/restaurant-3.jpg",
       "favourite": "false"
     },
     {
@@ -189,7 +189,7 @@
         "French",
         "Italian"
       ],
-      "image": "./images/restaurant-14.jpg",
+      "image": "/images/restaurant-14.jpg",
       "favourite": "false"
     },
     {
@@ -203,7 +203,7 @@
         "Sea Food",
         "French"
       ],
-      "image": "./images/restaurant-15.jpg",
+      "image": "/images/restaurant-15.jpg",
       "favourite": "false"
     }
   ]
