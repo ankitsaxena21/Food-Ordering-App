@@ -9,7 +9,7 @@ const total = 15;
 class Restaurants {
     async getData() {
         try {
-            let response = await fetch("restaurants.json");
+            let response = await fetch('./../assets/media/data/restaurants.json');
             let data = await response.json();
             return data.items;
         }
@@ -28,7 +28,7 @@ class UI {
             output = output + `
             <div class="restaurant">
             <div class="img-container" id=${restaurant.id}>
-                <img src="${restaurant.image}" alt="restaurant" class="restaurant-img" />
+                <img src="../assets/media/${restaurant.image}" alt="restaurant" class="restaurant-img" />
                 <button class="bag-btn">
                     ${(Storage.getFavourite(restaurant.id - 1) === "true") ? "<i class='fa fa-heart fa-lg'></i>" + "favourite" : "add to favourites"}
                 </button>
@@ -141,7 +141,7 @@ const storage = new Storage();
 
 //event listeners
 document.addEventListener("DOMContentLoaded", () => {
-    search.value ='';
+    search.value = '';
     restaurants.getData().then(restaurants => {
         ui.displayItems(restaurants);
         let items = localStorage.getItem("favourite");
@@ -218,12 +218,12 @@ document.querySelector(".favourites").addEventListener("click", (e) => {
     restaurants.getData().then(restaurants => {
         let fav = [];
         restaurants.forEach((restaurant, index) => {
-            if(items[index] == "true"){
+            if (items[index] == "true") {
                 fav.push(restaurant);
             }
         });
         ui.displayItems(fav);
         ui.getfavouriteButtons();
     });
-    
+
 });
