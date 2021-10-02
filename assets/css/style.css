@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 :root {
   --primaryColor: #0b57fc;
@@ -12,7 +12,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
+
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
@@ -33,7 +35,6 @@ footer{
   color: rgb(235, 227, 227);
   position: sticky;
   letter-spacing: var(--mainSpacing);
-
 }
 
 .filter-container {
@@ -70,6 +71,7 @@ footer{
   cursor: pointer;
 
 }
+
 #sort {
   background: linear-gradient(to right, rgb(148, 143, 143), rgb(241, 233, 233));
   color: rgb(17, 17, 17);
@@ -87,12 +89,11 @@ footer{
   height: 45px;
   margin-right: 20px;
   box-shadow: 0px 1px 5px 1px rgb(10, 10, 10);
-
 }
 
 .autocomplete {
   width: 52vw;
-  top : -10rem;
+  top: -10rem;
   text-align: left;
   background: white;
   box-shadow: 0px 1px 5px 1px #000;
@@ -210,17 +211,21 @@ footer{
   float: right;
   font-size: 1.5rem;
   width: 50px;
-  height: 32px ;
+  height: 32px;
   margin-top: 2vh;
 }
 .favourites:hover {
   color: red;
 }
-.prev{
+.prev {
   cursor: pointer;
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(16, 191, 235));
   width: 12vw;
   height: 8vh;
+  margin-top: 1.5vh;
+  margin-left: 42%;
+}
+.prev:hover {
   margin-left: 5vw;
   margin-right: 10vw;
   color: azure;
@@ -228,21 +233,17 @@ footer{
   align-items: center;
  
 } 
-.prev:hover{
-  color: rgb(151, 151, 151);
-}
-.next{
+.next {
   cursor: pointer;
   background: linear-gradient(to right, rgb(3, 3, 94), rgb(9, 121, 226));
   width: 12vw;
   height: 8vh;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   margin-left: 10vw;
   margin-right: 5vw;
   color: azure;
-  
   align-items: center;
-  
-  
 }
 .next:hover {
   color: rgb(151, 151, 151);
@@ -278,7 +279,6 @@ footer{
     text-align: center;
     height: 3.5em;
   }
-
 }
 @media screen and (min-width: 880px) {
   .restaurants-center {
