@@ -1,0 +1,210 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Green Curry",
+      "location": "Mexico",
+      "rating": "3.5",
+      "ETA": "25",
+      "tags": [
+        "American",
+        "Mexican",
+        "French"
+      ],
+      "image": "./images/restaurant-1.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "2",
+      "name": "Bangalore Spices",
+      "location": "Bangalore",
+      "rating": "4",
+      "ETA": "20",
+      "tags": [
+        "Chinese",
+        "Indian",
+        "French"
+      ],
+      "image": "./images/restaurant-2.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "3",
+      "name": "Paterro’s Kitchen",
+      "location": "Paris",
+      "rating": "3",
+      "ETA": "30",
+      "tags": [
+        "American",
+        "Italian",
+        "French"
+      ],
+      "image": "./images/restaurant-3.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "4",
+      "name": "Grassfed Grill",
+      "location": "Delhi",
+      "rating": "3.5",
+      "ETA": "22",
+      "tags": [
+        "American",
+        "French"
+      ],
+      "image": "./images/restaurant-4.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "5",
+      "name": "Hunger Killers",
+      "location": "Delhi",
+      "rating": "4.5",
+      "ETA": "18",
+      "tags": [
+        "American",
+        "Indian"
+      ],
+      "image": "./images/restaurant-5.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "6",
+      "name": "Indian Tadka",
+      "location": "New York",
+      "rating": "3.8",
+      "ETA": "25",
+      "tags": [
+        "Indian",
+        "French"
+      ],
+      "image": "./images/restaurant-6.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "7",
+      "name": "Street Deli",
+      "location": "Delhi",
+      "rating": "3.4",
+      "ETA": "33",
+      "tags": [
+        "Indian"
+      ],
+      "image": "./images/restaurant-7.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "8",
+      "name": "Spicella Spanish Kitchen",
+      "location": "Madrid",
+      "rating": "2.8",
+      "ETA": "35",
+      "tags": [
+        "American",
+        "Indian",
+        "French"
+      ],
+      "image": "./images/restaurant-8.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "9",
+      "name": "Sweet Escape",
+      "location": "Delhi",
+      "rating": "4.1",
+      "ETA": "20",
+      "tags": [
+        "American",
+        "Chinese",
+        "French"
+      ],
+      "image": "./images/restaurant-9.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "10",
+      "name": "Veganic Corner",
+      "location": "Delhi",
+      "rating": "3.7",
+      "ETA": "25",
+      "tags": [
+        "American",
+        "Chinese",
+        "French"
+      ],
+      "image": "./images/restaurant-10.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "11",
+      "name": "Island Grill",
+      "location": "Delhi",
+      "rating": "3.5",
+      "ETA": "34",
+      "tags": [
+        "American",
+        "Chinese",
+        "French"
+      ],
+      "image": "./images/restaurant-11.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "12",
+      "name": "Flavoroso",
+      "location": "Mumbai",
+      "rating": "3.5",
+      "ETA": "30",
+      "tags": [
+        "American",
+        "Mexican",
+        "French"
+      ],
+      "image": "./images/restaurant-12.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "13",
+      "name": "El Pirata",
+      "location": "Firenze",
+      "rating": "4.7",
+      "ETA": "30",
+      "tags": [
+        "American",
+        "Indian",
+        "French"
+      ],
+      "image": "./images/restaurant-3.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "14",
+      "name": "El Pirata Porch",
+      "location": "hawaii",
+      "rating": "3",
+      "ETA": "35",
+      "tags": [
+        "American",
+        "Sea Food",
+        "French",
+        "Italian"
+      ],
+      "image": "./images/restaurant-14.jpg",
+      "favourite": "false"
+    },
+    {
+      "id": "15",
+      "name": "Sea Hunger",
+      "location": "Goa",
+      "rating": "4",
+      "ETA": "40",
+      "tags": [
+        "American",
+        "Sea Food",
+        "French"
+      ],
+      "image": "./images/restaurant-15.jpg",
+      "favourite": "false"
+    }
+  ]
+}
