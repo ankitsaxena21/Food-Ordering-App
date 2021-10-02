@@ -11,7 +11,6 @@ class Restaurants {
         try {
             let response = await fetch('https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/data/restaurants.json');
             let data = await response.json();
-            console.log(data);
             return data.items;
         }
         catch (err) {
@@ -29,7 +28,7 @@ class UI {
             output = output + `
             <div class="restaurant">
             <div class="img-container" id=${restaurant.id}>
-                <img src="../assets/media/${restaurant.image}" alt="restaurant" class="restaurant-img" />
+                <img src="${restaurant.image}" alt="restaurant" class="restaurant-img" />
                 <button class="bag-btn">
                     ${(Storage.getFavourite(restaurant.id - 1) === "true") ? "<i class='fa fa-heart fa-lg'></i>" + "favourite" : "add to favourites"}
                 </button>
