@@ -226,12 +226,7 @@ footer{
   margin-left: 42%;
 }
 .prev:hover {
-  margin-left: 5vw;
-  margin-right: 10vw;
-  color: azure;
- 
-  align-items: center;
- 
+   color: rgb(151, 151, 151); 
 } 
 .next {
   cursor: pointer;
