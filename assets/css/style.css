@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
 @font-face {
   font-family: MainFont;
   src: url(font.ttf);
 }
+
 :root {
   --primaryColor: #0b57fc;
   --mainWhite: #fff;
@@ -11,11 +13,13 @@
   --mainSpacing: 0.1rem;
   --mainTransition: all 0.3s linear;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
@@ -30,7 +34,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 10vh;
-  }
+}
 
 .header {
   text-align: left;
@@ -45,12 +49,13 @@ body {
   align-items: center;
 }
 
-#filter, #sort {
-border-radius: 49px;
-background: linear-gradient(145deg, #6268ff, #5357e6);
-box-shadow:  5px 5px 10px #2e3180,
-             -5px -5px 10px #8a92ff;
-padding: 10px;
+#filter,
+#sort {
+  border-radius: 49px;
+  background: linear-gradient(145deg, #6268ff, #5357e6);
+  box-shadow: 5px 5px 10px #2e3180,
+    -5px -5px 10px #8a92ff;
+  padding: 10px;
   color: #fff;
   border: none;
   width: auto;
@@ -58,6 +63,7 @@ padding: 10px;
   margin-top: 4vh;
   margin-left: 2vw;
 }
+
 .typeahead {
   width: 52vw;
   height: 52px;
@@ -65,16 +71,17 @@ padding: 10px;
   padding: 10px;
   border-radius: 30px;
   border: none;
-border-radius: 59px;
-background: linear-gradient(145deg, #cacaca, #f0f0f0);
-box-shadow:  21px 21px 41px #9f9f9f,
-             -21px -21px 41px #ffffff;
+  border-radius: 59px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 21px 21px 41px #9f9f9f,
+    -21px -21px 41px #ffffff;
 
 }
-footer{
+
+footer {
   text-align: left;
-  height:8vw;
-  height:4vw;
+  height: 8vw;
+  height: 4vw;
   margin-bottom: 0;
   cursor: pointer;
   text-align: left;
@@ -88,9 +95,10 @@ footer{
   text-transform: capitalize;
   background-color: black;
 }
+
 .autocomplete {
   width: 52vw;
-  top : -10rem;
+  top: -10rem;
   text-align: left;
   background: white;
   box-shadow: 0px 1px 5px 1px #000;
@@ -156,12 +164,15 @@ footer{
   transform: translateX(101%);
   cursor: pointer;
 }
+
 .bag-btn:hover {
   color: var(--mainWhite);
 }
+
 .fa-shopping-cart {
   margin-right: 0.5rem;
 }
+
 .img-container:hover .bag-btn {
   transform: translateX(0);
 }
@@ -176,6 +187,7 @@ footer{
   max-height: 12rem;
   transition: var(--mainTransition);
 }
+
 .img-container:hover .restaurant-img {
   opacity: 0.5;
 }
@@ -200,49 +212,57 @@ footer{
   align-items: center;
   justify-content: center;
 }
-.favourites {
+
+.favourites,
+.toggle {
   background: #000;
   color: rgb(255, 216, 20);
   border: #000;
   float: right;
   font-size: 1.5rem;
   width: 50px;
-  height: 32px ;
+  height: 32px;
   margin-top: 2vh;
 }
-.glow-button:hover {
+
+.glow-button:hover,
+.toggle-theme-button:hover {
   color: rgba(255, 228, 92, 1);
   box-shadow: 0 20px 45px rgba(255, 216, 20, .4);
   background: transparent;
 }
-.prev{
+
+.prev {
   cursor: pointer;
-border: none;
-border-radius: 64px;
-background: linear-gradient(145deg, #6d9eff, #5c85e6);
-box-shadow:  9px 9px 18px #4e70c2,
-             -9px -9px 18px #7eb8ff;
+  border: none;
+  border-radius: 64px;
+  background: linear-gradient(145deg, #6d9eff, #5c85e6);
+  box-shadow: 9px 9px 18px #4e70c2,
+    -9px -9px 18px #7eb8ff;
   color: azure;
   width: 95px;
   height: 8vh;
   margin-top: 40px;
-} 
-.prev:hover{
+}
+
+.prev:hover {
   color: #f5ff66;
 }
-.next{
+
+.next {
   cursor: pointer;
-border: none;
-border-radius: 64px;
-background: linear-gradient(145deg, #6d9eff, #5c85e6);
-box-shadow:  9px 9px 18px #4e70c2,
-             -9px -9px 18px #7eb8ff;
+  border: none;
+  border-radius: 64px;
+  background: linear-gradient(145deg, #6d9eff, #5c85e6);
+  box-shadow: 9px 9px 18px #4e70c2,
+    -9px -9px 18px #7eb8ff;
   color: azure;
   width: 90px;
   height: 8vh;
   margin-top: 40px;
   margin-left: 30px;
 }
+
 .next:hover {
   color: #f5ff66;
 }
@@ -251,32 +271,40 @@ box-shadow:  9px 9px 18px #4e70c2,
   .next {
     width: 100px;
   }
+
   .prev {
     width: 100px;
     margin-left: 18%;
   }
-  #filter, #sort {
+
+  #filter,
+  #sort {
     width: 32vw;
     height: 7vh;
   }
+
   .typeahead {
     width: 75vw;
     margin-left: 10vw;
     height: 45px;
   }
+
   .autocomplete {
     width: 75vw;
     margin-left: 10vw;
   }
+
   .favourites {
     font-size: 1.5rem;
   }
+
   .section-title h2 {
     text-align: center;
     height: 3.5em;
   }
 
 }
+
 @media screen and (min-width: 880px) {
   .restaurants-center {
     width: 90vw;
