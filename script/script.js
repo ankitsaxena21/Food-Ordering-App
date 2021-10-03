@@ -246,6 +246,7 @@ document.querySelector(".toggle").addEventListener("click", (e) => {
     document.getElementById("theme-icon").className = "fa fa-sun-o fa-lg";
 
     document.querySelector("body").style.background = "#222";
+    document.querySelector("body").style.color = "#222";
     document.querySelector(".typeahead").style.boxShadow = "none";
     document.querySelector("#sort").style.boxShadow = "none";
     document.querySelector("#filter").style.boxShadow = "none";
@@ -261,6 +262,7 @@ document.querySelector(".toggle").addEventListener("click", (e) => {
 
     document.querySelector("body").style.background =
       "linear-gradient(to right, rgb(252, 251, 249), rgb(196, 194, 190))";
+    document.querySelector("body").style.color = "#222";
     document.querySelector(".typeahead").style.boxShadow =
       "21px 21px 41px #9f9f9f, -21px -21px 41px #ffffff";
     document.querySelector("#sort").style.boxShadow =
