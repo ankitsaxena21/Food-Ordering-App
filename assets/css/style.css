@@ -121,8 +121,24 @@ footer {
 .products {
   padding: 4rem 0;
 }
-
+.section-title {
+  background-color: black;
+  color: rgb(235, 227, 227);
+  padding: 0.6rem 2rem;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-toggles {
+  display: flex;
+}
 .section-title h2 {
+  flex-grow: 2;
+  font-size: 2rem;
+}
+/* .section-title h2 {
   text-align: left;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -132,7 +148,7 @@ footer {
   color: rgb(235, 227, 227);
   position: sticky;
   letter-spacing: var(--mainSpacing);
-}
+} */
 
 .restaurants-center {
   width: 90vw;
@@ -221,11 +237,9 @@ footer {
   background: #000;
   color: rgb(255, 216, 20);
   border: #000;
-  float: right;
   font-size: 1.5rem;
   width: 50px;
   height: 32px;
-  margin-top: 2vh;
 }
 
 .glow-button:hover,
@@ -300,10 +314,11 @@ footer {
   .favourites {
     font-size: 1.5rem;
   }
-
+  .section-title {
+    flex-direction: column;
+  }
   .section-title h2 {
-    text-align: center;
-    height: 3.5em;
+    flex-grow: 1;
   }
 
 }
