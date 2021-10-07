@@ -56,7 +56,7 @@ body {
   box-shadow: 5px 5px 10px #2e3180,
     -5px -5px 10px #8a92ff;
   padding: 10px;
-  color: #fff;
+  color: var(--mainWhite);
   border: none;
   width: auto;
   height: auto;
@@ -91,7 +91,7 @@ footer {
   font-size: 1rem;
   margin-bottom: 0rem;
   padding: 1rem;
-  color: white;
+  color: var(--mainWhite);
   text-transform: capitalize;
   background-color: black;
 }
@@ -100,7 +100,7 @@ footer {
   width: 52vw;
   top: -10rem;
   text-align: left;
-  background: white;
+  background: var(--mainWhite);
   box-shadow: 0px 1px 5px 1px #000;
   padding: 0.6rem;
 }
@@ -114,7 +114,7 @@ footer {
   width: 80px;
   height: 45px;
   background: linear-gradient(to right, rgb(241, 234, 234), rgb(37, 36, 36));
-  color: white;
+  color: var(--mainWhite);
 
 }
 
@@ -249,7 +249,7 @@ footer {
   background: transparent;
 }
 
-.prev {
+.prev, .next {
   cursor: pointer;
   border: none;
   border-radius: 64px;
@@ -262,26 +262,12 @@ footer {
   margin-top: 40px;
 }
 
-.prev:hover {
+.prev:hover, .next:hover {
   color: #f5ff66;
 }
 
 .next {
-  cursor: pointer;
-  border: none;
-  border-radius: 64px;
-  background: linear-gradient(145deg, #6d9eff, #5c85e6);
-  box-shadow: 9px 9px 18px #4e70c2,
-    -9px -9px 18px #7eb8ff;
-  color: azure;
-  width: 90px;
-  height: 8vh;
-  margin-top: 40px;
   margin-left: 30px;
-}
-
-.next:hover {
-  color: #f5ff66;
 }
 
 .outline-none {
@@ -352,7 +338,7 @@ footer {
   border: none;
   outline: none;
   background-color: var(--primaryColor);
-  color: white;
+  color: var(--mainWhite);
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
