@@ -284,6 +284,10 @@ footer {
   color: #f5ff66;
 }
 
+.outline-none {
+  outline: none;
+}
+
 @media screen and (max-width: 568px) {
   .next {
     width: 100px;
