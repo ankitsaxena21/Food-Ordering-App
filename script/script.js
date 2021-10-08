@@ -224,7 +224,7 @@ document.querySelector("#pagination").addEventListener("click", (e) => {
   }
 });
 
-document.querySelector(".favourites").addEventListener("click", (e) => {
+document.querySelector(".favourites").addEventListener("click", (e) => { 
   let items = localStorage.getItem("favourite");
   items = JSON.parse(items);
   restaurants.getData().then((restaurants) => {
@@ -235,6 +235,18 @@ document.querySelector(".favourites").addEventListener("click", (e) => {
       }
     });
     ui.displayItems(fav);
+    ui.getfavouriteButtons();
+  });
+});
+
+document.querySelector(".clears").addEventListener("click", (e) => {
+  restaurants.getData().then((restaurants) => {
+    ui.displayItems(restaurants);
+    let items = localStorage.getItem("favourite");
+    items = JSON.parse(items);
+    if (items === null) {
+      Storage.saveData(restaurants);
+    }
     ui.getfavouriteButtons();
   });
 });
