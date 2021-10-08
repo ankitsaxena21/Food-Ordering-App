@@ -254,7 +254,7 @@ document.querySelector(".toggle").addEventListener("click", (e) => {
     document.querySelector(".next").style.boxShadow = "none";
     root.style.setProperty("--primaryColor", "#4272ff");
     root.style.setProperty("--mainBlack", "#fff");
-    root.style.setProperty("--mainWhite", "#222");
+    root.style.setProperty("--mainWhite", "#fff");
   } else {
     theme = "light";
     // Change the icon to the moon icon
