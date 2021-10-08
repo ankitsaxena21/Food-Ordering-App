@@ -232,7 +232,7 @@ footer {
   justify-content: center;
 }
 
-.favourites,
+.favourites, .clears,
 .toggle {
   background: #000;
   color: rgb(255, 216, 20);
