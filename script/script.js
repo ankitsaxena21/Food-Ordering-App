@@ -214,7 +214,7 @@ document.querySelector("#pagination").addEventListener("click", (e) => {
       ui.displayItems(restaurants, prev, next);
       ui.getfavouriteButtons();
     });
-  } else if (e.target.textContent.includes("previous") && prev >= 0) {
+  } else if (e.target.textContent.includes("previous") && prev > 0) {
     prev = prev - 6;
     next = next - 6;
     restaurants.getData().then((restaurants) => {
