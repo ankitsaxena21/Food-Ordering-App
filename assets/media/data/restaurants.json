@@ -11,7 +11,7 @@
         "Mexican",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-1.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-1.webp",
       "favourite": "false"
     },
     {
@@ -25,7 +25,7 @@
         "Indian",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-2.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-2.webp",
       "favourite": "false"
     },
     {
@@ -39,7 +39,7 @@
         "Italian",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-3.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-3.webp",
       "favourite": "false"
     },
     {
@@ -52,7 +52,7 @@
         "American",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-4.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-4.webp",
       "favourite": "false"
     },
     {
@@ -65,7 +65,7 @@
         "American",
         "Indian"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-5.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-5.webp",
       "favourite": "false"
     },
     {
@@ -78,7 +78,7 @@
         "Indian",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-6.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-6.webp",
       "favourite": "false"
     },
     {
@@ -90,7 +90,7 @@
       "tags": [
         "Indian"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-7.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-7.webp",
       "favourite": "false"
     },
     {
@@ -104,7 +104,7 @@
         "Indian",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-8.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-8.webp",
       "favourite": "false"
     },
     {
@@ -118,7 +118,7 @@
         "Chinese",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-9.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-9.webp",
       "favourite": "false"
     },
     {
@@ -132,7 +132,7 @@
         "Chinese",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-10.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-10.webp",
       "favourite": "false"
     },
     {
@@ -146,7 +146,7 @@
         "Chinese",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-11.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-11.webp",
       "favourite": "false"
     },
     {
@@ -160,7 +160,7 @@
         "Mexican",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-12.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-12.webp",
       "favourite": "false"
     },
     {
@@ -174,7 +174,7 @@
         "Indian",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-3.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-3.webp",
       "favourite": "false"
     },
     {
@@ -189,7 +189,7 @@
         "French",
         "Italian"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-14.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-14.webp",
       "favourite": "false"
     },
     {
@@ -203,7 +203,7 @@
         "Sea Food",
         "French"
       ],
-      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-15.jpg",
+      "image": "https://raw.githubusercontent.com/ankitsaxena21/Food-Ordering-App/master/assets/media/images/restaurant-15.webp",
       "favourite": "false"
     }
   ]

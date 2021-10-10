@@ -3,6 +3,7 @@
 @font-face {
   font-family: MainFont;
   src: url(font.ttf);
+  display: swap;
 }
 
 :root {
