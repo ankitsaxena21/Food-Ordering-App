@@ -9,7 +9,39 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body onload="load()" >
+  <!-- Preloader Code starts -->
+  <div id="loader">
+    <h1 id="h1">Cooking in progress..</h1>
+  <div id="cooking">
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+       <div class="bubble"></div>
+      <div class="bubble"></div>
+    <div id="area">
+      <div id="sides">
+          <div id="pan"></div>
+          <div id="handle"></div>
+      </div>
+      <div id="pancake">
+        <div id="pastry"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var preloader = document.getElementById("loader");
+      function load() {
+        setTimeout(() => {
+          preloader.style.display = "none";
+          document.getElementById("main_body").style.display = "block";
+        }, 2000);
+      }
+</script>
+  <!--Preloader Code ends -->
+  <div id="main_body" style="display: none;">
   <section>
     <div class="section-title">
       <h2 class="header">Food Ordering App</h2>
@@ -74,6 +106,7 @@
 </footer>
 <script src="./script/script.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+</div>
 </body>
 
 </html>
