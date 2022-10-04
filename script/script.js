@@ -264,6 +264,8 @@ document.querySelector(".toggle").addEventListener("click", (e) => {
     document.querySelector("#filter").style.boxShadow = "none";
     document.querySelector(".prev").style.boxShadow = "none";
     document.querySelector(".next").style.boxShadow = "none";
+    root.style.setProperty("--cardshadow", "rgb(91, 173, 200)");
+    root.style.setProperty("--cardhovershadow","rgb(57, 195, 241)");
     root.style.setProperty("--primaryColor", "#4272ff");
     root.style.setProperty("--mainBlack", "#fff");
     root.style.setProperty("--mainWhite", "#fff");
@@ -285,6 +287,8 @@ document.querySelector(".toggle").addEventListener("click", (e) => {
       "9px 9px 18px #4e70c2, -9px -9px 18px #7eb8ff";
     document.querySelector(".next").style.boxShadow =
       "9px 9px 18px #4e70c2, -9px -9px 18px #7eb8ff";
+    root.style.setProperty("--cardshadow", "rgb(68, 70, 70)");
+    root.style.setProperty("--cardhovershadow","rgb(46, 46, 46)");
     root.style.setProperty("--primaryColor", "#0b57fc");
     root.style.setProperty("--mainBlack", "#222");
     root.style.setProperty("--mainWhite", "#fff");
