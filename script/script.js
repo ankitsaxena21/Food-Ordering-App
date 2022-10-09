@@ -22,6 +22,7 @@ class Restaurants {
   }
 }
 
+
 // display the restaurants
 class UI {
   displayItems(restaurants, prev = 0, next = 6) {
@@ -54,6 +55,8 @@ class UI {
     restaurantDOM.innerHTML = output;
   }
 
+  
+  
   searchText(text, list) {
     let items = _.filter(list, (item) => {
       name = item.name.toLowerCase();
@@ -77,6 +80,8 @@ class UI {
       options.style.display = "block";
     }
   }
+  
+  
   getfavouriteButtons() {
     const btns = [...document.querySelectorAll(".bag-btn")];
     btns.forEach((btn) => {
@@ -96,6 +101,7 @@ class UI {
   }
 }
 
+
 //local storage
 class Storage {
   static saveData(items) {
@@ -104,6 +110,8 @@ class Storage {
     });
     localStorage.setItem("favourite", JSON.stringify(favourites.slice(1)));
   }
+  
+  
   static getFavourite(id) {
     if (localStorage.getItem("favourite")) {
       let items = localStorage.getItem("favourite");
@@ -111,6 +119,8 @@ class Storage {
       return items[id];
     }
   }
+  
+  
   static setFavourite(id) {
     let i = 1;
     let items = localStorage.getItem("favourite");
@@ -125,8 +135,12 @@ class Storage {
 
       i++;
     }
+    
+    
     localStorage.setItem("favourite", JSON.stringify(newFav.slice(1)));
   }
+  
+  
   static removeFavourite(id) {
     let i = 1;
     let items = localStorage.getItem("favourite");
@@ -141,14 +155,20 @@ class Storage {
 
       i++;
     }
+    
     localStorage.setItem("favourite", JSON.stringify(newFav.slice(1)));
   }
+  
 }
+
+
 
 // creating all objects
 const ui = new UI();
 const restaurants = new Restaurants();
 const storage = new Storage();
+
+
 
 //event listeners
 document.addEventListener("DOMContentLoaded", () => {
